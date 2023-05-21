@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.11.2/brython.min.js" > 
+  </script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.11.2/brython_stdlib.min.js" > 
+  </script>
+  <style>
+    * {
+      font-family: 'Jetbrains Mono';
+    }
+  </style>
+  {% block script %}
+  {% endblock %}
+</head>
+<body onload="brython()">
+  {% block content %}
+  {% endblock %}
+</body>
+</html>
